@@ -17,6 +17,7 @@
 		CB0B23A22BBB48F200F23888 /* DemoWeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0B23A12BBB48F200F23888 /* DemoWeatherAppTests.swift */; };
 		CB0B23AC2BBB48F200F23888 /* DemoWeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0B23AB2BBB48F200F23888 /* DemoWeatherAppUITests.swift */; };
 		CB0B23AE2BBB48F200F23888 /* DemoWeatherAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0B23AD2BBB48F200F23888 /* DemoWeatherAppUITestsLaunchTests.swift */; };
+		CB0B23BB2BBB581A00F23888 /* WeatherBean.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0B23BA2BBB581A00F23888 /* WeatherBean.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		CB0B23A72BBB48F200F23888 /* DemoWeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoWeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0B23AB2BBB48F200F23888 /* DemoWeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoWeatherAppUITests.swift; sourceTree = "<group>"; };
 		CB0B23AD2BBB48F200F23888 /* DemoWeatherAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoWeatherAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CB0B23BA2BBB581A00F23888 /* WeatherBean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherBean.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				CB0B23932BBB48F200F23888 /* Assets.xcassets */,
 				CB0B23952BBB48F200F23888 /* LaunchScreen.storyboard */,
 				CB0B23982BBB48F200F23888 /* Info.plist */,
+				CB0B23BA2BBB581A00F23888 /* WeatherBean.swift */,
 				CB0B23902BBB48F100F23888 /* DemoWeatherApp.xcdatamodeld */,
 			);
 			path = DemoWeatherApp;
@@ -263,6 +266,7 @@
 			files = (
 				CB0B238C2BBB48F100F23888 /* ViewController.swift in Sources */,
 				CB0B23922BBB48F100F23888 /* DemoWeatherApp.xcdatamodeld in Sources */,
+				CB0B23BB2BBB581A00F23888 /* WeatherBean.swift in Sources */,
 				CB0B23882BBB48F100F23888 /* AppDelegate.swift in Sources */,
 				CB0B238A2BBB48F100F23888 /* SceneDelegate.swift in Sources */,
 			);
